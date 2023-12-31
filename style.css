@@ -1,0 +1,59 @@
+body {
+  width: 100%;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 25px;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 5px;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  border-color: white;
+  min-width: 300px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+#comment {
+  margin: 15px 0px 0px 5px;
+}

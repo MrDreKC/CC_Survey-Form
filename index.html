@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"></link>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Welcome To A Short Survey</h1>
+      <p id="description">This survey is serving as test of my coding skills.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="number" id="name-label">Name: <input id="name" type="text" name="name" required placeholder="Enter your name"/></label> 
+        <label for="email" id="email-label">Email: <input id="email" type="email" name="email" required placeholder="Enter you email"/></label>
+        <label for="number" id="number-label">Lucky Number: <input id="number" type="number" name="number" min="1" max="99" placeholder="#Lucky"/></label>
+        <label for="dropdown">How old are you?</label>
+          <select id="dropdown" name="dropdown">
+            <option value="">(select an option)</option>
+            <option value="1">10 - 20</option>
+            <option value="2">25 - 30</option>
+            <option value="3">35 - 40</option>
+            <option value="4">45 - 50</option>
+            <option value="5">55 - 60</option>
+            <option value="6">65 - 70+</option>
+          </select>
+    </fieldset>
+    <fieldset>
+        <p id="survey-rating">How are you enjoying this survery?</p>
+          <label><input type="radio" name="radio-options" value="greatly-enjoy" class="inline"/> Greatly Enjoy</label>
+          <label><input type="radio" name="radio-options" value="sightly-enjoy" class="inline"/> Sightly Enjoy</label>
+          <label><input type="radio" name="radio-options" value="enjoy" class="inline"/> Enjoy</label>
+          <label><input type="radio" name="radio-options" value="sighlty-unenjoy" class="inline"/> Sighlty Unenjoy</label>
+          <label><input type="radio" name="radio-options" value="greatly-unenjoy" class="inline"/> Greatly Unenjoy</label>
+        <p id="rating">What would you add to improve this survey?</p>
+          <label><input type="checkbox" name="improvment" value="more-options" class="inline"/> A lot more options</label>
+          <label><input type="checkbox" name="improvment" value="couple-options" class="inline"/> A couple more options</label>
+          <label><input type="checkbox" name="improvment" value="few-options" class="inline"/> A few more options</label>
+          <label><input type="checkbox" name="improvment" value="enough-options" class="inline"/> This is enough options</label>
+    </fieldset>
+        <p id="comment">Additional Comments</p>          <textarea id="additional-comments" name="additional-comments" rows="3" cols="30" placeholder="Anything more you'd like to add"/></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>
